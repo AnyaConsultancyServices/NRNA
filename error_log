@@ -1,0 +1,6 @@
+[29-Apr-2018 16:09:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home3/nrnacxch/public_html/library/db_config.php:13
+Stack trace:
+#0 /home3/nrnacxch/public_html/library/db_config.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home3/nrnacxch/public_html/index.php(2): include('/home3/nrnacxch...')
+#2 {main}
+  thrown in /home3/nrnacxch/public_html/library/db_config.php on line 13
